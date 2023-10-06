@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@400;600&family=EB+Garamond:wght@500&family=Titillium+Web:wght@300;400&display=swap');
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+  height: 14rem;
+  width: 24rem;
+  margin: 1rem;
+  position: relative;
+}
+
+.cardHeader {
+  height: 3.5rem;
+  width: 23.9rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 1.5rem;
+  left: 0;
+  background-color: #333949;
+}
+
+.headerLeft , .headerRight {
+  height: 2.5rem;
+ 
+}
+
+.titleL {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 700;
+  margin-right: 2rem;
+  padding-right: 1rem;
+  border-right: 2px solid white;
+}
+
+.titleR {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  text-align: left;
+  padding-left: 0.5em;
+}
+
+.bodyLeft {
+  width: 14rem;
+  height: 8.9rem;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 1rem;
+}
+
+.bodyRight {
+  width: 9.9rem;
+  height: 8.9rem;
+  position: absolute;
+  background-color: #E4E8EB;
+  right: 0;
+  bottom: 0;
+}
+
+.box {
+  height: 4rem;
+  width: 4em;
+  position: absolute;
+  right: 3.6rem;
+  bottom: 2.8rem;
+  transform: rotate(45deg);
+}
+
+.tip1 , .tip2{
+  height: 4rem;
+  width: 0.1rem;
+  background-color: black;
+  position: absolute;
+  top: 0; 
+}
+
+.tip3 , .tip4{
+  height: 0.1rem;
+  width: 4rem;
+  background-color: black;
+  position: absolute;
+  left: 0rem;
+}
+
+.tip1 {
+  left: 1.2rem;
+}
+
+.tip2 {
+  right: 1.2rem;
+}
+
+.tip3 {
+  top: 1.2rem;
+}
+
+.tip4 {
+  bottom: 1.2rem;
+}
+
+.email {
+  margin-top: 2.2rem;
+  padding-left: 0.5em;
+}
+
+.phone {
+  padding-left: 0.5em;
+}
